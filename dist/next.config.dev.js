@@ -1,14 +1,14 @@
+"use strict";
+
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'avatars.githubusercontent.com',
-        port: '',
-        pathname: '**'
-      }
-    ]
+    remotePatterns: [{
+      protocol: 'https',
+      hostname: 'avatars.githubusercontent.com',
+      port: '',
+      pathname: '**'
+    }]
   },
   eslint: {
     // Warning: This allows production builds to successfully complete even if
@@ -20,4 +20,4 @@ module.exports = {
     // your project has type errors.
     ignoreBuildErrors: true
   }
-}
+};
