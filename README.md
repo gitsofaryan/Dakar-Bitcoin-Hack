@@ -1,26 +1,28 @@
 <h2 align="center">
+ ## Overview
+
+BitQuine is a specialized Bitcoin trading AI assistant powered by Groq's Compound model and Llama3 70b. It provides lightning-fast Bitcoin analysis, real-time trading signals, price charts, and AI-generated BUY/SELL/HOLD recommendations. Built with Vercel's AI SDK and TradingView widgets, BitQuine delivers near-instantaneous responses with interactive visualizations.
+
+> [!IMPORTANT]
+> Note: BitQuine may provide inaccurate information and does not provide investment advice. It is for entertainment and educational purposes only. Always do your own research before making investment decisions. ₿
  <br>
- <img src="https://i.imgur.com/f1C7EdN.png" alt="AI StockBot Powered by Groq with Tool Use and Generative UI" width="250">
  <br>
- <br>
- StockBot Powered by Groq: Lightning Fast AI Chatbot that Responds With Live Interactive Stock Charts, Financials, News, Screeners, and More 
+ BitQuine: Lightning-Fast Bitcoin Trading AI Powered by Groq Compound 
  <br>
 </h2>
 
 <p align="center">
  <a href="#Overview">Overview</a> •
  <a href="#Features">Features</a> •
-  <a href="#Interfaces">Interfaces</a> •
  <a href="#Quickstart">Quickstart</a> •
  <a href="#Credits">Credits</a>
 </p>
 
 <br>
 
-[Demo of StockBot](https://github.com/user-attachments/assets/a50fa266-5ae9-4869-a37f-599d7db790d9)
-> Demo of StockBot providing relevant, live, and interactive stock charts and interfaces
+> Bitcoin-focused AI assistant providing real-time trading signals, market analysis, and AI-powered BUY/SELL/HOLD recommendations
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbklieger-groq%2Fstockbot-on-groq&env=GROQ_API_KEY&envDescription=Get%20a%20Groq%20API%20Key&envLink=https%3A%2F%2Fconsole.groq.com%2Fkeys&project-name=stockbot-clone&repository-name=stockbot-clone&demo-title=StockBot&demo-description=Build%20a%20lightning-fast%20AI%20chatbot%20powered%20by%20Groq%20and%20Vercel%20AI%20SDK%20that%20responds%20with%20live%20stock%20charts%2C%20financials%2C%20news%2C%20and%20screeners.&demo-url=https%3A%2F%2Fgroq-stockbot.vercel.app%2F&demo-image=https%3A%2F%2Fi.imgur.com%2FjJfm8mm.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgitsofaryan%2FDakar-Bitcoin-Hack&env=GROQ_API_KEY&envDescription=Get%20a%20Groq%20API%20Key&envLink=https%3A%2F%2Fconsole.groq.com%2Fkeys&project-name=bitquine&repository-name=bitquine&demo-title=BitQuine&demo-description=Lightning-fast%20Bitcoin%20trading%20AI%20powered%20by%20Groq%20Compound%20model)
 
 ## Overview
 
@@ -31,30 +33,34 @@ StockBot is an AI-powered chatbot that leverages Llama3 70b on Groq, Vercel’s 
 
 ## Features
 
-- 🤖 **Real-time AI Chatbot**: Engage with AI powered by Llama3 70b to request stock news, information, and charts through natural language conversation
-- 📊 **Interactive Stock Charts**: Receive near-instant, context-aware responses with interactive TradingView charts that host live data
-- 🔄 **Adaptive Interface**: Dynamically render TradingView UI components for financial interfaces tailored to your specific query
-- ⚡ **Groq-Powered Performance**: Leverage Groq's cutting-edge inference technology for near-instantaneous responses and seamless user experience
-- 🌐 **Multi-Asset Market Coverage**: Access comprehensive data and analysis across stocks, forex, bonds, and cryptocurrencies
+- ₿ **Bitcoin Trading Recommendations**: AI-powered BUY/SELL/HOLD signals using Groq's Compound model with confidence scores and reasoning
+- 📊 **Interactive Bitcoin Charts**: Real-time BTC price charts with live data from TradingView
+- 💰 **Current Bitcoin Price**: Instant access to current BTC price and market data
+- � **Technical Analysis**: RSI indicators, support/resistance levels, and market sentiment analysis
+- ⚡ **Lightning-Fast Responses**: Powered by Groq's inference technology for near-instantaneous AI analysis
+- 🎨 **Clean Light Theme UI**: Professional, accessible interface optimized for financial data visualization
+- 🔍 **Detailed Market Analysis**: Comprehensive Bitcoin market insights and trend analysis
 
-## Interfaces
-| Description | Widget |
-|-------------|--------|
-| **Heatmap of Daily Market Performance**<br>Visualize market trends at a glance with an interactive heatmap. | ![Heatmap of Daily Market Performance](https://github.com/user-attachments/assets/2e3919a3-280b-4be4-adcd-a1ff636bff3e) |
-| **Breakdown of Financial Data for Stocks**<br>Get detailed financial metrics and key performance indicators for any stock. | ![Breakdown of Financial Data for Stocks](https://github.com/user-attachments/assets/c1c32dac-8295-4efb-ac1e-2eea8a89e7db) |
-| **Price History of Stock**<br>Track the historical price movement of stocks with customizable date ranges. | ![Price History of Stock](https://github.com/user-attachments/assets/f588068e-4d95-4188-96fd-866d355c993e) |
-| **Candlestick Stock Charts for Specific Assets**<br>Analyze price patterns and trends with detailed candlestick charts. | ![Candlestick Stock Charts for Specific Assets](https://github.com/user-attachments/assets/ce9ea4a8-a1fe-4ce7-be60-3f5d64d50ced) |
-| **Top Stories for Specific Stock**<br>Stay informed with the latest news and headlines affecting specific companies. | ![Top Stories for Specific Stock](https://github.com/user-attachments/assets/fa0693f4-8eca-4d5c-90e7-42afda0d8acc) |
-| **Market Overview**<br>Shows an overview of today's stock, futures, bond, and forex market performance including change values, Open, High, Low, and Close values. | ![Market Overview](https://github.com/user-attachments/assets/79048f3b-9153-41f9-8de5-6b3d45f331dd) |
-| **Stock Screener to Find New Stocks and ETFs**<br>Discover new companies with a stock screening tool. | ![Stock Screener to Find New Stocks and ETFs](https://github.com/user-attachments/assets/8ecadec9-69a1-4e18-a9fe-7b30df9f6ff5) |
-| **Trending Stocks**<br>Shows the top five gaining, losing, and most active stocks for the day. | ![Trending Stocks](https://github.com/user-attachments/assets/848c1ebf-7828-4116-a041-6f0ba7156bd5) |
-| **ETF Heatmap**<br>Shows a heatmap of today's ETF market performance across sectors and asset classes. | ![ETF Heatmap](https://github.com/user-attachments/assets/cb2b29d9-acb7-4c8f-90c7-0390e72907f6) |
+## How It Works
+
+BitQuine uses Groq's Compound model to analyze Bitcoin market data and provide intelligent trading recommendations:
+
+1. **Natural Language Query**: Ask questions like "Should I buy Bitcoin?" or "Analyze Bitcoin for me"
+2. **AI Analysis**: Groq Compound model processes market indicators (RSI, price trends, volume)
+3. **Trading Signal**: Receive BUY/SELL/HOLD recommendation with confidence score
+4. **Visual Feedback**: Color-coded cards (green for BUY, red for SELL, yellow for HOLD)
+5. **Detailed Reasoning**: Get comprehensive analysis explaining the recommendation
+
+### Example Queries
+- "Should I buy Bitcoin?"
+- "What is the price of Bitcoin?"
+- "Show me a Bitcoin chart"
+- "Analyze Bitcoin for me"
 
 ## Quickstart
 
 > [!IMPORTANT]
-> To use StockBot, you can use a hosted version at [groq-stockbot.vercel.app](https://groq-stockbot.vercel.app/).
-> Alternatively, you can run StockBot locally using the quickstart instructions.
+> You can run BitQuine locally using the instructions below.
 
 
 You will need a Groq API Key to run the application. You can obtain one [here on the Groq console](https://console.groq.com/keys).
@@ -74,10 +80,38 @@ pnpm dev
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
 
+## Tech Stack
+
+- **AI Model**: Groq Compound (for Bitcoin analysis) + Llama3 70b (for conversation)
+- **Framework**: Next.js 14 with App Router
+- **AI SDK**: Vercel AI SDK with React Server Components
+- **UI**: Tailwind CSS with light theme optimization
+- **Charts**: TradingView Widgets
+- **Icons**: Lucide React
+- **Hosting**: Vercel (recommended)
+
+## Environment Variables
+
+Create a `.env.local` file with:
+
+```bash
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+Get your Groq API key from [console.groq.com/keys](https://console.groq.com/keys)
+
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) to see the latest changes and versions. Major versions are archived.
+See [CHANGELOG.md](CHANGELOG.md) for version history and updates.
 
 ## Credits
 
-This app was developed by [Benjamin Klieger](https://x.com/benjaminklieger) at [Groq](https://groq.com) and uses the AI Chatbot template created by Vercel: [Github Repository](https://github.com/vercel/ai-chatbot).
+
+
+**Built by**: [gitsofaryan](https://github.com/gitsofaryan) for Dakar Bitcoin Hackathon
+**Original StockBot**: [Github Repository](https://github.com/bklieger-groq/stockbot-on-groq)
+**Vercel AI Chatbot**: [Github Repository](https://github.com/vercel/ai-chatbot)
+
+## License
+
+See [LICENSE](LICENSE) for more information.
