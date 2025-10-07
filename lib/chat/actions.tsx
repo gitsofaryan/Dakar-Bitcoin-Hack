@@ -1,5 +1,6 @@
 import 'server-only'
 
+import React from 'react'
 import { generateText } from 'ai'
 import {
   createAI,
@@ -44,8 +45,8 @@ interface MutableAIState {
   get: () => AIState
 }
 
-const MODEL = 'openai/gpt-oss-120b'
-const TOOL_MODEL = 'openai/gpt-oss-120b'
+const MODEL = 'llama-3.1-70b-versatile'
+const TOOL_MODEL = 'llama-3.1-70b-versatile'
 const GROQ_API_KEY_ENV = process.env.GROQ_API_KEY
 
 type ComparisonSymbolObject = {
@@ -859,7 +860,7 @@ Make the reasoning clear, actionable, and professional. Keep it concise (3-5 key
                     content: 'Analyze Bitcoin right now and provide trading recommendation in JSON format only.'
                   }
                 ],
-                model: 'groq/compound',
+                model: 'llama-3.1-70b-versatile',
                 temperature: 0.7,
                 max_tokens: 1024,
                 top_p: 1,
